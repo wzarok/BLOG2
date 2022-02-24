@@ -1,0 +1,6 @@
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\BusinnessLayer.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\BusinnessLayer.pdb
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.csproj.AssemblyReference.cache
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.csproj.CoreCompileInputs.cache
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.pdb
