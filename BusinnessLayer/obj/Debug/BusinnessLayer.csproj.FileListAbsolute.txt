@@ -4,3 +4,12 @@ C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.csproj.CoreCompileInputs.cache
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.dll
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.pdb
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityLayer.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityFramework.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityFramework.xml
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.csproj.CopyComplete
