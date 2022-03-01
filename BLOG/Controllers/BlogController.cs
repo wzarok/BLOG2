@@ -33,5 +33,18 @@ namespace BLOG.Controllers
         {
             return PartialView();
         }
+        public ActionResult BlogDetails()
+        {
+            return View();
+        }
+        public PartialViewResult BlogCover()
+        {
+            return PartialView();
+        }
+        public PartialViewResult BlogReadAll()
+        {
+            return PartialView();
+        }
+        
     }
 }
