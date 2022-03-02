@@ -16,5 +16,9 @@ namespace BLOG.Controllers
             var CategoryValues = cm.GetAll();
             return View(CategoryValues);
         }
+        public PartialViewResult BlogCategoryList()
+        {
+            return PartialView();
+        }
     }
 }

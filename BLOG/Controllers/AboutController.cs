@@ -6,14 +6,14 @@ using System.Web.Mvc;
 
 namespace BLOG.Controllers
 {
-    public class AuthorController : Controller
+    public class AboutController : Controller
     {
-        // GET: Author
-        public PartialViewResult AuthorResult()
+        // GET: About
+        public ActionResult Index()
         {
-            return PartialView();
+            return View();
         }
-        public PartialViewResult AuthorPopularPost()
+        public PartialViewResult MeetTheTeam()
         {
             return PartialView();
         }
