@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinnessLayer.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,13 +10,15 @@ namespace BLOG.Controllers
     public class BlogController : Controller
     {
         // GET: Blog
+        BlogManager bm = new BlogManager();
         public ActionResult Index()
         {
             return View();
         }
         public PartialViewResult BlogList()
         {
-            return PartialView();
+            var bloglist = bm.GetAll();
+            return PartialView(bloglist);
         }
         public PartialViewResult FeaturedPost()
         {
@@ -45,6 +48,9 @@ namespace BLOG.Controllers
         {
             return PartialView();
         }
-        
+        public ActionResult BlogByCategory()
+        {
+            return View();
+        }
     }
 }
