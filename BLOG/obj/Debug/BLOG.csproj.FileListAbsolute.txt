@@ -89,3 +89,7 @@ C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\obj\Debug\BLOG.csproj.CoreCompileIn
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\obj\Debug\BLOG.csproj.CopyComplete
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\obj\Debug\BLOG.dll
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\obj\Debug\BLOG.pdb
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.xml
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.Mvc.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.Mvc.xml
