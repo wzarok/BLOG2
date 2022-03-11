@@ -1,4 +1,5 @@
 ﻿using BusinnessLayer.Concrete;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,8 +17,16 @@ namespace BLOG.Controllers
             var commentlist = cm.CommentByBlog(id);
             return PartialView(commentlist);
         }
-        public PartialViewResult LeaveComment()
+        [HttpGet]
+        public PartialViewResult LeaveComment(int id)
         {
+            ViewBag.id = id;
+            return PartialView();
+        }
+        [HttpPost]
+        public PartialViewResult LeaveComment(Comment c)
+        {
+            cm.CommentAdd(c);
             return PartialView();
         }
     }

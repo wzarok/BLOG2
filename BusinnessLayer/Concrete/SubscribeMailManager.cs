@@ -13,8 +13,8 @@ namespace BusinnessLayer.Concrete
         Repository<SubscribeMail> reposubscribemail = new Repository<SubscribeMail>();
         public int BLAdd(SubscribeMail p)
         {
-            //@gmail.com
-            if (p.MAIL.Length <= 10 || p.MAIL.Length>=50)
+            
+            if (p.MAIL.Length <= 10 || p.MAIL.Length>=51)
             {
                 return -1;
             }

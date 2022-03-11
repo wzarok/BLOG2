@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinnessLayer.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,9 +10,11 @@ namespace BLOG.Controllers
     public class AuthorController : Controller
     {
         // GET: Author
-        public PartialViewResult AuthorResult()
+        BlogManager bm = new BlogManager();
+        public PartialViewResult AuthorResult(int id)
         {
-            return PartialView();
+            var authordetail = bm.GetBlogByID(id);
+            return PartialView(authordetail);
         }
         public PartialViewResult AuthorPopularPost()
         {
