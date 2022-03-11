@@ -78,15 +78,18 @@ namespace BLOG.Controllers
         }
         public ActionResult BlogDetails()
         {
+
             return View();
         }
-        public PartialViewResult BlogCover()
+        public PartialViewResult BlogCover(int id)
         {
-            return PartialView();
+            var BlogDetailsList = bm.GetBlogByID(id);
+            return PartialView(BlogDetailsList);
         }
-        public PartialViewResult BlogReadAll()
+        public PartialViewResult BlogReadAll(int id)
         {
-            return PartialView();
+            var BlogDetailsList = bm.GetBlogByID(id);
+            return PartialView(BlogDetailsList);
         }
         public ActionResult BlogByCategory()
         {

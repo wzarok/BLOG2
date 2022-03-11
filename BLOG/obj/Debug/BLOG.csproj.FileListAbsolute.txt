@@ -93,3 +93,4 @@ C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.dll
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.xml
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.Mvc.dll
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\PagedList.Mvc.xml
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BLOG\bin\BusinnessLayer.dll.config

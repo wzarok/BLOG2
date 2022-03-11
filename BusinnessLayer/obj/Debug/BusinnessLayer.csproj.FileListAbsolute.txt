@@ -13,3 +13,6 @@ C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityLayer.pdb
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityLayer.dll.config
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityFramework.xml
 C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\obj\Debug\BusinnessLayer.csproj.CopyComplete
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\BusinnessLayer.dll.config
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\serha\OneDrive\Masaüstü\BLOG\BusinnessLayer\bin\Debug\EntityFramework.SqlServer.xml

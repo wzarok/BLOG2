@@ -15,3 +15,4 @@ C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLaye
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig2.resources
