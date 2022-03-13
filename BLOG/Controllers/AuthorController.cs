@@ -16,9 +16,12 @@ namespace BLOG.Controllers
             var authordetail = bm.GetBlogByID(id);
             return PartialView(authordetail);
         }
-        public PartialViewResult AuthorPopularPost()
+        public PartialViewResult AuthorPopularPost(int id)
         {
-            return PartialView();
+            var blogauthorid = bm.GetAll().Where(x => x.BlogID == id).Select(y => y.AuthorID).FirstOrDefault();
+            
+            var authorblogs = bm.GetBlogByAuthor(blogauthorid);
+            return PartialView(authorblogs);
         }
     }
 }

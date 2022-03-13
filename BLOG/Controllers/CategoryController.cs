@@ -18,7 +18,8 @@ namespace BLOG.Controllers
         }
         public PartialViewResult BlogCategoryList()
         {
-            return PartialView();
+            var CategoryValues = cm.GetAll();
+            return PartialView(CategoryValues);
         }
     }
 }
