@@ -93,6 +93,12 @@ namespace BLOG.Controllers
         }
         public ActionResult BlogByCategory()
         {
+            
+            return View();
+        }
+
+        public ActionResult AdminBlogList()
+        {
             return View();
         }
     }
