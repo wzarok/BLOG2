@@ -29,5 +29,6 @@ namespace BLOG.Controllers
             cm.CommentAdd(c);
             return PartialView();
         }
+       
     }
 }
