@@ -10,18 +10,24 @@ namespace BLOG.Controllers
     public class AuthorController : Controller
     {
         // GET: Author
-        BlogManager bm = new BlogManager();
+        BlogManager blogmanager = new BlogManager();
+        AuthorManager authormanager = new AuthorManager();
         public PartialViewResult AuthorResult(int id)
         {
-            var authordetail = bm.GetBlogByID(id);
+            var authordetail = blogmanager.GetBlogByID(id);
             return PartialView(authordetail);
         }
         public PartialViewResult AuthorPopularPost(int id)
         {
-            var blogauthorid = bm.GetAll().Where(x => x.BlogID == id).Select(y => y.AuthorID).FirstOrDefault();
+            var blogauthorid = blogmanager.GetAll().Where(x => x.BlogID == id).Select(y => y.AuthorID).FirstOrDefault();
             
-            var authorblogs = bm.GetBlogByAuthor(blogauthorid);
+            var authorblogs = blogmanager.GetBlogByAuthor(blogauthorid);
             return PartialView(authorblogs);
+        }
+        public ActionResult AuthorList()
+        {
+           var authorlist= authormanager.GetAll();
+            return View(authorlist);
         }
     }
 }
