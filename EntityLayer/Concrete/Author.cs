@@ -17,6 +17,16 @@ namespace EntityLayer.Concrete
         public string AuthorImage { get; set; }
         [StringLength(250)]
         public string AuthorAbout { get; set; }
+        [StringLength(50)]
+        public string AuthorTitle { get; set; }
+        [StringLength(100)]
+        public string AboutShort { get; set; }
+        [StringLength(50)]
+        public string AuthorMail { get; set; }
+        [StringLength(50)]
+        public string AuthorPass{ get; set; }
+        [StringLength(20)]
+        public string AuthoPhone { get; set; }
         public ICollection<Blog> blogs { get; set; }
     }
 }

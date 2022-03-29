@@ -1,4 +1,5 @@
 ﻿using BusinnessLayer.Concrete;
+using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,29 @@ namespace BLOG.Controllers
         {
            var authorlist= authormanager.GetAll();
             return View(authorlist);
+        }
+        [HttpGet]
+        public ActionResult AddAuthor()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult AddAuthor(Author p)
+        {
+            authormanager.AddAuthorBL(p);
+            return RedirectToAction("AuthorList");
+        }
+        [HttpGet]
+        public ActionResult AuthorEdit(int id)
+        {
+            Author author = authormanager.FindAuthor(id);
+            return View(author);
+        }
+        [HttpPost]
+        public ActionResult AuthorEdit(Author p)
+        {
+            authormanager.EditAuthor(p);
+            return RedirectToAction("AuthorList");
         }
     }
 }

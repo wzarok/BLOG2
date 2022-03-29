@@ -5,6 +5,7 @@ using PagedList;
 using PagedList.Mvc;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -128,6 +129,7 @@ namespace BLOG.Controllers
         [HttpPost]
         public ActionResult AddNewBlog(Blog b)
         {
+            
             bm.BlogAddBL(b);
             return RedirectToAction("AdminBlogList");
         }

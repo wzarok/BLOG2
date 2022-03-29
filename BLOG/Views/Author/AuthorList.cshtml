@@ -28,7 +28,7 @@
 
             <div class="card card-solid">
 
-                <a href="/Author/AddNewAuthor/" class="btn btn-primary">YAZAR EKLE</a>
+                
                 <div class="card-body pb-0">
 
                     <div class="row d-flex align-items-stretch">
@@ -52,13 +52,13 @@
 
                                                 <h2 class="lead"><b>@item.AuthorName</b></h2>
 
-                                                <p class="text-muted text-sm"><b>Hakkında: </b> @item.AuthorAbout </p>
+                                                <p class="text-muted text-sm"><b>Hakkında: </b> @item.AboutShort </p>
 
                                                 <ul class="ml-4 mb-0 fa-ul text-muted">
 
-                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Address: Demo Street 123, Demo City 04312, NJ</li>
+                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Mail: @item.AuthorMail</li>
 
-                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #: + 800 - 12 12 23 52</li>
+                                                    <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Phone #: @item.AuthoPhone</li>
 
                                                 </ul>
 
@@ -84,9 +84,9 @@
 
                                             </a>
 
-                                            <a href="#" class="btn btn-sm btn-primary">
+                                            <a href="/Author/AuthorEdit/@item.AuthorID" class="btn btn-sm btn-primary">
 
-                                                <i class="fas fa-user"></i> View Profile
+                                                <i class="fas fa-user"></i> Yazarı Düzenle
 
                                             </a>
 
@@ -116,5 +116,5 @@
     <!-- /.control-sidebar -->
 
 </body>
-
+<a href="/Author/AddAuthor/" class="btn btn-primary">YAZAR EKLE</a>
 </html>
