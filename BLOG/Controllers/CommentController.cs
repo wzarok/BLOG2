@@ -46,8 +46,8 @@ namespace BLOG.Controllers
         }
         public ActionResult StatusChangeToTrue(int id)
         {
-            cm.ChangeCommentStatusToFalse(id);
-            return RedirectToAction("AdminCommentListTrue");
+            cm.ChangeCommentStatusToTrue(id);
+            return RedirectToAction("AdminCommentListFalse");
         }
 
     }

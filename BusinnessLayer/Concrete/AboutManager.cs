@@ -15,5 +15,15 @@ namespace BusinnessLayer.Concrete
         {
             return repoblog.List();
         }
+        public int UpdateAboutBM(About p)
+        {
+            About about = repoblog.Find(x => x.AboutID == p.AboutID);
+            about.AboutContent1 = p.AboutContent1;
+            about.AboutContent2 = p.AboutContent2;
+            about.AboutImage1 = p.AboutImage1;
+            about.AboutImage2 = p.AboutImage2;
+            about.AboutID = p.AboutID;
+            return repoblog.Update(about);
+        }
     }
 }
