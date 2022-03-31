@@ -18,3 +18,5 @@ C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLaye
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig2.resources
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig4.resources
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig5.resources
+C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig6.resources
+C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig61.resources
