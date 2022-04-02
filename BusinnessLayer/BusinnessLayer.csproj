@@ -59,6 +59,7 @@
     <Compile Include="Concrete\ContactManager.cs" />
     <Compile Include="Concrete\repository.cs" />
     <Compile Include="Concrete\SubscribeMailManager.cs" />
+    <Compile Include="Concrete\UserProfileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

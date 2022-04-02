@@ -39,12 +39,14 @@ Author URL: http://w3layouts.com
                 <div class="main-hotair">
                     <div class="content-wthree">
                         <h2>Log In</h2>
-                        <form action="#" method="post">
-                            <input type="text" class="text" name="text" placeholder="User Name" required="" autofocus>
-                            <input type="password" class="password" name="password" placeholder="User Password" required="" autofocus>
+                        @using (Html.BeginForm("AuthorIndex", "Login", FormMethod.Post))
+                        {
+                            <input type="text" class="text" name="AuthorMail" placeholder="User Name" required="" autofocus>
+                            <input type="password" class="password" name="AuthorPass" placeholder="User Password" required="" autofocus>
                             <button class="btn" type="submit">Log In</button>
-                        </form>
-
+                            }
+                  
+                        <p class="account">Şifreni mi unuttun?<a href="#">Şifre İste</a></p>
                     </div>
                     <div class="w3l_form align-self">
                         <div class="left_grid_info">
