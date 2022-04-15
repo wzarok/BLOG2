@@ -10,7 +10,7 @@ using System.Web.Security;
 
 namespace BLOG.Controllers
 {
-    [Authorize]
+ 
     public class UserController : Controller
     {
         // GET: User

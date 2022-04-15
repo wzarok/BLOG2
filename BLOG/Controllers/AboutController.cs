@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace BLOG.Controllers
 {
+    [AllowAnonymous]
     public class AboutController : Controller
     {
         // GET: About

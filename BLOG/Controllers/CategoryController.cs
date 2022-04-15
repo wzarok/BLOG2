@@ -11,11 +11,13 @@ namespace BLOG.Controllers
     {
         // GET: Category
         CategoryManager cm = new CategoryManager();
+        [AllowAnonymous]
         public ActionResult Index()
         {
             var CategoryValues = cm.GetAll();
             return View(CategoryValues);
         }
+        [AllowAnonymous]
         public PartialViewResult BlogCategoryList()
         {
             var CategoryValues = cm.GetAll();

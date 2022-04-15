@@ -8,16 +8,19 @@ using System.Web.Mvc;
 
 namespace BLOG.Controllers
 {
+    
     public class AuthorController : Controller
     {
         // GET: Author
         BlogManager blogmanager = new BlogManager();
         AuthorManager authormanager = new AuthorManager();
+        [AllowAnonymous]
         public PartialViewResult AuthorResult(int id)
         {
             var authordetail = blogmanager.GetBlogByID(id);
             return PartialView(authordetail);
         }
+        [AllowAnonymous]
         public PartialViewResult AuthorPopularPost(int id)
         {
             var blogauthorid = blogmanager.GetAll().Where(x => x.BlogID == id).Select(y => y.AuthorID).FirstOrDefault();

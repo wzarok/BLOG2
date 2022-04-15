@@ -11,12 +11,13 @@ namespace BLOG.Controllers
     public class MailSubscribeController : Controller
     {
         // GET: MailSubscribe
-
+        [AllowAnonymous]
         [HttpGet]
         public PartialViewResult AddMail()
         {
             return PartialView();
         }
+        [AllowAnonymous]
         [HttpPost]
         public PartialViewResult AddMail(SubscribeMail p)
         {

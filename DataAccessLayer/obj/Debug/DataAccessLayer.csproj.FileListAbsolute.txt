@@ -22,3 +22,4 @@ C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLaye
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig61.resources
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig7.resources
 C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig8.resources
+C:\Users\serha\OneDrive\Masaüstü\BLOG\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migg1.resources
