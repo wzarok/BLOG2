@@ -15,7 +15,7 @@ namespace BLOG.Controllers
         [AllowAnonymous]
         public PartialViewResult CommentList(int id)
         {
-            var commentlist = cm.CommentByBlog(id);
+            var commentlist = cm.CommentListTrueByBlog(id);
             return PartialView(commentlist);
         }
         [AllowAnonymous]
@@ -24,7 +24,7 @@ namespace BLOG.Controllers
         {
             ViewBag.id = id;
             return PartialView();
-        }
+        } 
         [AllowAnonymous]
         [HttpPost]
         public PartialViewResult LeaveComment(Comment c)

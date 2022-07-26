@@ -1996,6 +1996,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\PagedList.css" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\transparan.png" />
+    <Content Include="Images\Untitled-1.png" />
     <Content Include="login-form-20\css\bootstrap.min.css" />
     <Content Include="login-form-20\css\bootstrap\mixins\_border-radius.css" />
     <Content Include="login-form-20\css\bootstrap\mixins\_reset-text.css" />
@@ -2012,6 +2015,11 @@
     <Content Include="login-form-20\js\main.js" />
     <Content Include="login-form-20\js\popper.js" />
     <Content Include="login-form-20\main.html" />
+    <Content Include="Login1\css\style.css" />
+    <Content Include="Login1\img\SON.png" />
+    <Content Include="Login1\img\SON3.png" />
+    <Content Include="Login1\index.html" />
+    <Content Include="Login1\js\main.js" />
     <Content Include="miniblog\about.html" />
     <Content Include="miniblog\category.html" />
     <Content Include="miniblog\contact.html" />
@@ -2585,11 +2593,9 @@
     <Content Include="Views\Author\AuthorPopularPost.cshtml" />
     <Content Include="Views\Category\BlogCategoryList.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
-    <Content Include="Views\About\MeetTheTeam.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Blog\BlogByCategory.cshtml" />
     <Content Include="Views\MailSubscribe\AddMail.cshtml" />
-    <Content Include="Views\Contact\SendMessage.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
     <Content Include="Views\Blog\AdminBlogList.cshtml" />
     <Content Include="Views\Blog\AddNewBlog.cshtml" />
@@ -2611,17 +2617,20 @@
     <Content Include="Views\Chart\Chart3.cshtml" />
     <Content Include="Views\Shared\_AuthorLayout.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
-    <Content Include="Views\Login\AuthorIndex.cshtml" />
     <Content Include="Views\User\Partial1.cshtml" />
     <Content Include="Views\User\AuthorBlogList.cshtml" />
     <Content Include="Views\User\UpdateBlog.cshtml" />
     <Content Include="Views\User\AddNewBlog.cshtml" />
     <Content Include="Views\Error\Page404.cshtml" />
     <Content Include="Views\Login\AdminIndex.cshtml" />
+    <Content Include="Views\Contact\Info.cshtml" />
+    <Content Include="Views\About\AboutFirst.cshtml" />
+    <Content Include="Views\Category\CategoryDetail.cshtml" />
+    <Content Include="Views\About\Services.cshtml" />
+    <Content Include="Views\Category\AddNewCategory.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

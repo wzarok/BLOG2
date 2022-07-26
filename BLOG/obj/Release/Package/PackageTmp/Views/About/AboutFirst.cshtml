@@ -1,0 +1,17 @@
+﻿@model IEnumerable<EntityLayer.Concrete.About>
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 order-md-2">
+                <img src="/miniblog/images/img_1.jpg" alt="Image" class="img-fluid">
+            </div>
+            @foreach (var item in Model)
+            {
+            <div class="col-md-5 mr-auto order-md-1">
+                <h2>@item.Title1</h2>
+                <p>@item.AboutContent1</p>
+                
+            </div>}
+        </div>
+    </div>
+</div>

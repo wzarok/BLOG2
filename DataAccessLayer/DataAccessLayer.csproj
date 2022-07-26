@@ -96,6 +96,42 @@
     <Compile Include="Migrations\202204151102459_migg1.Designer.cs">
       <DependentUpon>202204151102459_migg1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206101007368_aysebasacik.cs" />
+    <Compile Include="Migrations\202206101007368_aysebasacik.Designer.cs">
+      <DependentUpon>202206101007368_aysebasacik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206101331348_newmig.cs" />
+    <Compile Include="Migrations\202206101331348_newmig.Designer.cs">
+      <DependentUpon>202206101331348_newmig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206111730486_mig21321.cs" />
+    <Compile Include="Migrations\202206111730486_mig21321.Designer.cs">
+      <DependentUpon>202206111730486_mig21321.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206131545142_migrationdesc.cs" />
+    <Compile Include="Migrations\202206131545142_migrationdesc.Designer.cs">
+      <DependentUpon>202206131545142_migrationdesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206131820083_services.cs" />
+    <Compile Include="Migrations\202206131820083_services.Designer.cs">
+      <DependentUpon>202206131820083_services.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206132040053_migrationabout.cs" />
+    <Compile Include="Migrations\202206132040053_migrationabout.Designer.cs">
+      <DependentUpon>202206132040053_migrationabout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206132051433_migrationmigmig.cs" />
+    <Compile Include="Migrations\202206132051433_migrationmigmig.Designer.cs">
+      <DependentUpon>202206132051433_migrationmigmig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207222340033_migrationlast.cs" />
+    <Compile Include="Migrations\202207222340033_migrationlast.Designer.cs">
+      <DependentUpon>202207222340033_migrationlast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202207231046044_migrationscontent.cs" />
+    <Compile Include="Migrations\202207231046044_migrationscontent.Designer.cs">
+      <DependentUpon>202207231046044_migrationscontent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -130,6 +166,33 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202204151102459_migg1.resx">
       <DependentUpon>202204151102459_migg1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206101007368_aysebasacik.resx">
+      <DependentUpon>202206101007368_aysebasacik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206101331348_newmig.resx">
+      <DependentUpon>202206101331348_newmig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206111730486_mig21321.resx">
+      <DependentUpon>202206111730486_mig21321.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206131545142_migrationdesc.resx">
+      <DependentUpon>202206131545142_migrationdesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206131820083_services.resx">
+      <DependentUpon>202206131820083_services.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206132040053_migrationabout.resx">
+      <DependentUpon>202206132040053_migrationabout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206132051433_migrationmigmig.resx">
+      <DependentUpon>202206132051433_migrationmigmig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207222340033_migrationlast.resx">
+      <DependentUpon>202207222340033_migrationlast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207231046044_migrationscontent.resx">
+      <DependentUpon>202207231046044_migrationscontent.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

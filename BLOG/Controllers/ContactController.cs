@@ -12,6 +12,7 @@ namespace BLOG.Controllers
     {
         // GET: Contact
         ContactManager cm = new ContactManager();
+        AboutManager abm = new AboutManager();
         [AllowAnonymous]
         public ActionResult Index()
         {
@@ -39,6 +40,13 @@ namespace BLOG.Controllers
         {
             var ContactDetails = cm.GetContByID(id);
             return PartialView(ContactDetails);
+        }
+
+        [AllowAnonymous]
+        public PartialViewResult Info()
+        {
+            var value = abm.GetAll();
+            return PartialView(value);
         }
     }
 }

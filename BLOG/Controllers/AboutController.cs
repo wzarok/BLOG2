@@ -17,7 +17,7 @@ namespace BLOG.Controllers
         {
             return View();
         }
-        public PartialViewResult MeetTheTeam()
+        public PartialViewResult Services()
         {
             return PartialView();
         }
@@ -32,6 +32,11 @@ namespace BLOG.Controllers
         {
             abm.UpdateAboutBM(p);
             return RedirectToAction("UpdateAboutList");
+        }
+        public PartialViewResult AboutFirst()
+        {
+            var about = abm.GetAll();
+            return PartialView(about);
         }
     }
 }

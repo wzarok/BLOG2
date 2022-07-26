@@ -11,13 +11,21 @@ namespace EntityLayer.Concrete
     {
         [Key]
         public int AboutID { get; set; }
-        [StringLength(500)]
+        [StringLength(1000)]
         public string AboutContent1 { get; set; }
-        [StringLength(500)]
+        [StringLength(100)]
+        public string Title1 { get; set; }
+        [StringLength(1000)]
         public string AboutContent2 { get; set; }
+        [StringLength(100)]
+        public string Title2 { get; set; }
         [StringLength(100)]
         public string AboutImage1 { get; set; }
         [StringLength(100)]
         public string AboutImage2 { get; set; }
+        [StringLength(50)]
+        public string Phone { get; set; }
+        [StringLength(50)]
+        public string Mail { get; set; }
     }
 }

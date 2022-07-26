@@ -55,5 +55,12 @@ namespace BLOG.Controllers
                 return RedirectToAction("AdminIndex","Login");
             }
         }
+
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("AdminIndex", "Login");
+        }
     }
 }

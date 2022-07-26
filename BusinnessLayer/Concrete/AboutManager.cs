@@ -23,6 +23,8 @@ namespace BusinnessLayer.Concrete
             about.AboutImage1 = p.AboutImage1;
             about.AboutImage2 = p.AboutImage2;
             about.AboutID = p.AboutID;
+            about.Phone = p.Phone;
+            about.Mail = p.Mail;
             return repoblog.Update(about);
         }
     }

@@ -14,16 +14,23 @@ namespace BusinnessLayer.Concrete
 
         public List<Comment> CommentList()
         {
+
             return repocomment.List();
         }
         public List<Comment> CommentByBlog(int id)
         {
+
             return repocomment.List(x => x.BlogID == id);
         }
         public List<Comment> CommentByStatusTrue()
         {
             return repocomment.List(x => x.CommentStatus == true);
 
+        }
+
+        public List<Comment> CommentListTrueByBlog(int id)
+        {
+            return repocomment.List(x => x.CommentStatus == true).Where(x => x.BlogID == id).ToList();
         }
         public int CommentAdd(Comment c)
         {

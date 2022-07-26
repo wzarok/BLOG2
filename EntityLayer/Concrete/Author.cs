@@ -15,7 +15,7 @@ namespace EntityLayer.Concrete
         public string AuthorName { get; set; }
         [StringLength(100)]
         public string AuthorImage { get; set; }
-        [StringLength(250)]
+        [StringLength(1000)]
         public string AuthorAbout { get; set; }
         [StringLength(50)]
         public string AuthorTitle { get; set; }

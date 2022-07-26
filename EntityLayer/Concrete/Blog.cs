@@ -13,7 +13,7 @@ namespace EntityLayer.Concrete
         public int BlogID { get; set; }
         [StringLength(100)]
         public string BlogTitle { get; set; }
-        [StringLength(100)]
+        [StringLength(500)]
         public string BlogImage { get; set; }
         public DateTime BlogDate { get; set; }
         public string BlogContent { get; set; }
